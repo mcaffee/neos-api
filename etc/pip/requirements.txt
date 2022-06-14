@@ -1,0 +1,31 @@
+# django
+Django==3.2.10
+djangorestframework==3.13.1
+drf-spectacular==0.21.1
+django-cleanup==6.0.0
+
+# logic-related
+pydantic==1.8.2
+Inject==4.3.1
+
+# Images
+Pillow==9.0.1
+
+# Async tasks
+celery[redis]==5.2.3
+
+# ML
+numpy==1.22.3
+scipy==1.8.0
+keras==2.8.0
+tensorflow==2.8.0
+opencv-python==4.5.5.64
+
+# test
+pytest==6.2.5
+pytest-django==4.5.2
+pytest-mock==3.6.1
+factory-boy==3.2.1
+
+# system-related
+psycopg2-binary==2.9.2
